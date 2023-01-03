@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+  color: black;
+}
+
+img.slide{
+
+    height:708px;
+}
+.card{
+    transition: 1s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.coupon{
+    height: 356px;
+    width: 454px;
+    margin-top: 187px;
+    z-index: 100;
+    position: absolute;
+    margin-left: 442px;
+    
+}
+
+
+.mydark{
+    background-color:rgb(51, 49, 49);
+    color:black;
+}
+.big{
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 137px;
+    color: white;
+    font-size: 102px;
+}
+.blow{
+    margin-left: 15px;
+    position: absolute;
+    margin-top: 205px;
+    color: white;
+    font-size: 65px;
+}
+@media screen and (max-width:1230px){
+    .coupon{
+        margin-left: 350px;
+    }
+}
+
